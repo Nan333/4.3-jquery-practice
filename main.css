@@ -1,0 +1,27 @@
+#menu {
+  height: 670px;
+  width: 390px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+h3 {
+  background color: black;
+}
+
+button {
+  height: 50px;
+  width: 390px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: green;
+}
+
+.my-files,
+.mail,
+.cloud {
+  background-color: red;
+}
