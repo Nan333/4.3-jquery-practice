@@ -1,11 +1,7 @@
-(function($) {
+$(document).ready(function(){
+    $('#menu').accordion();
+})
 
-  var allPanels = $('#menu > div').hide();
 
-  $('#menu > div > button').click(function() {
-    allPanels.slideUp();
-    $(this).parent().next().slideDown();
-    return false;
-  });
 
-})(jQuery);
+// alert('hello');

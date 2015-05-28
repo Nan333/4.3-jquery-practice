@@ -1,5 +1,5 @@
 #menu {
-  height: 670px;
+  height: 600px;
   width: 390px;
   border: 2px solid gray;
   border-radius: 5px;
@@ -7,21 +7,23 @@
 }
 
 h3 {
-  background color: black;
+  color: orange;
 }
 
 button {
-  height: 50px;
+  height: 45px;
   width: 390px;
   border-radius: 5px;
   font-size: 16px;
   font-family: Arial, sans-serif;
   font-weight: bold;
   color: green;
+  background-color: black;
 }
 
-.my-files,
-.mail,
-.cloud {
-  background-color: red;
-}
+
+button:hover {
+  background: #59A3E0;
+  text-decoration: none;
+  filter: none;
+  } 

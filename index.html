@@ -2,30 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="main.css">
   <title>accordion</title>
+  <link rel='stylesheet' href='main.css'/>
+  <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
+  <script type='text/javascript' src='script.js'></script>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 </head>
 <body>
   <div id="menu">
       <h3>My files</h3>
-      <div id="my-files">
           <button>Work</button>
           <button>Home</button>
           <button>Recreation</button>
-      </div>
       <h3>Mail</h3>
-      <div id="mail">
-          <button>Bob</button>
-          <button>Martha</button>
-          <button>Jackson</button>
-      </div>
+          <button><form action ="http://www.bob.com"></form>Bob</button>
+          <button><form action ="http://www.martha.com"></form>Martha</button>
+          <button><form action ="http://www.jackson.com"></form>Jackson</button>
       <h3>Cloud</h3>
-      <div id="cloud">
           <button>Connect</button>
           <button>Profiles</button>
           <button>Options</button>
-      </div>
-  <script type="text/javascript" src="main.js"></script>
   </div>
+  <script type='text/javascript' src='main.js'></script>
 </body>
 </html>
